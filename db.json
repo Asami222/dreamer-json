@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": 4,
+      "username": "asa",
+      "password": "222",
+      "createdAt": "2025-03-10T02:00:10.808Z",
+      "numberOfStars": 0,
+      "dream": "イルカの飼育員",
+      "limit": "",
+      "profileImageUrl": "/images/flower.png",
+      "displayName": "asami",
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/013c4eeb-b08f-4ac7-b917-474b49eb2b2e"
+        }
+      ]
+    }
+  ],
+  "todos": [
+    {
+      "todo": "勉強",
+      "limit": "2",
+      "detail": "2026年までに",
+      "starNum": 3,
+      "category": "year",
+      "imageUrl": "",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 13
+    }
+  ],
+  "rewards": [
+    {
+      "name": "くま",
+      "starPieces": "10",
+      "imageUrl": "/images/strawberry.webp",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 2
+    }
+  ],
+  "gotrewards": [
+    {
+      "name": "おかし",
+      "starPieces": "5",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "time": "2025年3月11日",
+      "id": 4
+    },
+    {
+      "name": "玩具",
+      "starPieces": "1",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "time": "2025年3月11日",
+      "id": 5
+    },
+    {
+      "name": "玩具",
+      "starPieces": "1",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "time": "2025年3月11日",
+      "id": 6
+    },
+    {
+      "name": "玩具",
+      "starPieces": "1",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "time": "2025年3月11日",
+      "id": 7
+    }
+  ]
+}

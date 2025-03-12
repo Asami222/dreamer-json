@@ -1,0 +1,22 @@
+{
+  "name": "json-server-deploy",
+  "version": "1.0.0",
+  "description": "Simple json database to deploy to the host of your choice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "json-server --watch db.json --port 9000"
+  },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.8",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "json-server": "^0.17.4",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
