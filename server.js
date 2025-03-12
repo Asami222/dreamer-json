@@ -23,8 +23,8 @@ server.use(cors({
   credentials: true, //レスポンスヘッダーにAccess-Control-Allow-Credentials追加
   optionsSuccessStatus: 200 //レスポンスstatusを200に設定
 }))
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
+//const bcrypt = require("npm ");
+//const jwt = require("jsonwebtoken");
 const JWT_SECRET = "jwt_json_server";
 const EXPIRATION = "1h";
 
