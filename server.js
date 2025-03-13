@@ -18,7 +18,7 @@ const port = process.env.PORT || 9000;
 server.use(cookieParser());
 server.use(express.json());
 server.use(cors({
-  origin: 'http://localhost:3000', //アクセス許可するオリジン
+  origin: 'https://dreamer-12ob3ubtg-asamis-projects.vercel.app', //アクセス許可するオリジン
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true, //レスポンスヘッダーにAccess-Control-Allow-Credentials追加
   optionsSuccessStatus: 200 //レスポンスstatusを200に設定
