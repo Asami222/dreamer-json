@@ -5,7 +5,7 @@
       "username": "asa",
       "password": "222",
       "createdAt": "2025-03-10T02:00:10.808Z",
-      "numberOfStars": 0,
+      "numberOfStars": 3,
       "dream": "イルカの飼育員",
       "limit": "",
       "profileImageUrl": "/images/flower.png",
@@ -20,31 +20,116 @@
   ],
   "todos": [
     {
-      "todo": "勉強",
-      "limit": "2",
-      "detail": "2026年までに",
-      "starNum": 3,
-      "category": "year",
-      "imageUrl": "",
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/78301461-7e16-4e4c-8274-5a87a8286c04"
+        }
+      ],
+      "todo": "本を読む",
+      "limit": "3",
+      "detail": "毎日",
+      "description": "１日２章",
+      "starNum": 4,
+      "category": "month",
+      "imageUrl": "/images/signinImage2.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 4,
         "username": "asa"
       },
-      "id": 13
-    }
-  ],
-  "rewards": [
+      "id": 1
+    },
     {
-      "name": "くま",
-      "starPieces": "10",
-      "imageUrl": "/images/strawberry.webp",
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/2bd8cb2c-966a-4ca2-b4aa-d26a27d73e45"
+        }
+      ],
+      "todo": "資格取得",
+      "limit": "1",
+      "detail": "2026年1月の試験まで",
+      "description": "参考書は２冊購入済み。\nもう１冊は２冊が終わる頃に購入予定。\n本のタイトルは「〇〇」",
+      "starNum": 7,
+      "category": "year",
+      "imageUrl": "/images/rainbow.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 4,
         "username": "asa"
       },
       "id": 2
+    }
+  ],
+  "rewards": [
+    {
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/07550a4d-569f-48fa-ad6d-84c3a340b7a3"
+        }
+      ],
+      "name": "海外旅行",
+      "starPieces": "200",
+      "imageUrl": "/images/icecream.png",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 1
+    },
+    {
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/89fcb2ec-109d-4c20-bfdf-561e56a1d0ef"
+        }
+      ],
+      "name": "ディズニーシー",
+      "starPieces": "500",
+      "imageUrl": "/images/macaron-pink.webp",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 2
+    },
+    {
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/d4a0d1f5-a26a-4529-9b77-f60d9f58d01e"
+        }
+      ],
+      "name": "買いたかった本を一冊買う",
+      "starPieces": "70",
+      "imageUrl": "/images/strawberry.webp",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 3
+    },
+    {
+      "image": [
+        {
+          "file": {},
+          "src": "blob:http://localhost:3000/d21f69f8-e5fe-4c0a-a1ec-f52a1796c054"
+        }
+      ],
+      "name": "洋服を買う",
+      "starPieces": "150",
+      "imageUrl": "/images/macaron-red.webp",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 4,
+        "username": "asa"
+      },
+      "id": 4
     }
   ],
   "gotrewards": [

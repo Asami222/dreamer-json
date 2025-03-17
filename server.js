@@ -96,7 +96,7 @@ server.post('/auth/register', (req, res) => {
           "createdAt": new Date(),
           "numberOfStars": 0,
         };
-      
+        /*
         db.users.push(newData);
       
         let newData2 = JSON.stringify(db,null,2);
@@ -104,6 +104,7 @@ server.post('/auth/register', (req, res) => {
           if(err) throw err; 
           console.log("新しいデータが追加されました"); 
         });
+        */
         res.cookie('session', `${username}`, { maxAge: 3600 * 1000,httpOnly: true });
         res.status(200).json(newData);
       } catch (error) {
