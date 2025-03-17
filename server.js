@@ -87,10 +87,7 @@ server.post('/auth/register', (req, res) => {
           return res.status(400).json({ message: "入力されたユーザー名は既に存在しています。別のものに変更してください" });
         }
 
-        const userId = db.users.length + 1;
-
         let newData = {
-          "id": userId,
           "username": username,
           "password": password,
           "createdAt": new Date(),
