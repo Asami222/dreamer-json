@@ -2,14 +2,14 @@
   "users": [
     {
       "id": 1,
-      "username": "asa",
-      "password": "222",
+      "username": "test",
+      "password": "111",
       "createdAt": "2025-03-10T02:00:10.808Z",
-      "numberOfStars": 3,
+      "numberOfStars": 10,
       "dream": "イルカの飼育員",
       "limit": "",
-      "profileImageUrl": "/images/flower.png",
-      "displayName": "asami",
+      "profileImageUrl": "/images/flower1.webp",
+      "displayName": "テスト",
       "image": [
         {
           "file": {},
@@ -23,43 +23,43 @@
       "image": [
         {
           "file": {},
-          "src": "blob:http://localhost:3000/78301461-7e16-4e4c-8274-5a87a8286c04"
+          "src": "blob:http://localhost:3000/1e378476-eee2-48c5-8b53-ecbdd518a368"
         }
       ],
-      "todo": "本を読む",
-      "limit": "3",
-      "detail": "毎日",
-      "description": "１日２章",
-      "starNum": 4,
+      "todo": "資格取得",
+      "limit": "6",
+      "detail": "半年後（９月８日）",
+      "description": "９月８日試験日！",
+      "starNum": 6,
       "category": "month",
-      "imageUrl": "/images/signinImage2.webp",
+      "imageUrl": "/images/rainbow1.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
-      "id": 1
+      "id": 6
     },
     {
       "image": [
         {
           "file": {},
-          "src": "blob:http://localhost:3000/2bd8cb2c-966a-4ca2-b4aa-d26a27d73e45"
+          "src": "blob:http://localhost:3000/8da62569-9241-4a5b-8a60-85e6bf364d0c"
         }
       ],
-      "todo": "資格取得",
+      "todo": "筋トレ",
       "limit": "1",
-      "detail": "2026年1月の試験まで",
-      "description": "参考書は２冊購入済み。\nもう１冊は２冊が終わる頃に購入予定。\n本のタイトルは「〇〇」",
-      "starNum": 7,
-      "category": "year",
-      "imageUrl": "/images/rainbow.webp",
+      "detail": "週３回",
+      "description": "夕方1時間（６時から７時まで）",
+      "starNum": 4,
+      "category": "week",
+      "imageUrl": "/images/signinImg2.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
-      "id": 2
+      "id": 7
     }
   ],
   "rewards": [
@@ -72,11 +72,11 @@
       ],
       "name": "海外旅行",
       "starPieces": "200",
-      "imageUrl": "/images/icecream.png",
+      "imageUrl": "/images/icecream1.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
       "id": 1
     },
@@ -89,30 +89,13 @@
       ],
       "name": "ディズニーシー",
       "starPieces": "500",
-      "imageUrl": "/images/macaron-pink.webp",
+      "imageUrl": "/images/macaron-pink1.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
       "id": 2
-    },
-    {
-      "image": [
-        {
-          "file": {},
-          "src": "blob:http://localhost:3000/d4a0d1f5-a26a-4529-9b77-f60d9f58d01e"
-        }
-      ],
-      "name": "買いたかった本を一冊買う",
-      "starPieces": "70",
-      "imageUrl": "/images/strawberry.webp",
-      "blurDataUrl": "",
-      "owner": {
-        "id": 1,
-        "username": "asa"
-      },
-      "id": 3
     },
     {
       "image": [
@@ -123,13 +106,24 @@
       ],
       "name": "洋服を買う",
       "starPieces": "150",
-      "imageUrl": "/images/macaron-red.webp",
+      "imageUrl": "/images/macaron-red1.webp",
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
       "id": 4
+    },
+    {
+      "name": "好きなおかし1000円分",
+      "starPieces": "10",
+      "imageUrl": "/images/macaron-pink1.webp",
+      "blurDataUrl": "",
+      "owner": {
+        "id": 1,
+        "username": "test"
+      },
+      "id": 6
     }
   ],
   "gotrewards": [
@@ -139,7 +133,7 @@
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
       "time": "2025年3月11日",
       "id": 4
@@ -150,32 +144,10 @@
       "blurDataUrl": "",
       "owner": {
         "id": 1,
-        "username": "asa"
+        "username": "test"
       },
       "time": "2025年3月11日",
       "id": 5
-    },
-    {
-      "name": "玩具",
-      "starPieces": "1",
-      "blurDataUrl": "",
-      "owner": {
-        "id": 1,
-        "username": "asa"
-      },
-      "time": "2025年3月11日",
-      "id": 6
-    },
-    {
-      "name": "玩具",
-      "starPieces": "1",
-      "blurDataUrl": "",
-      "owner": {
-        "id": 1,
-        "username": "asa"
-      },
-      "time": "2025年3月11日",
-      "id": 7
     }
   ]
 }
